@@ -34,6 +34,7 @@ class _LoginViewState extends State<LoginView> {
               const Text(
                 "Add your details to login",
                 style: TextStyle(
+                  // ff/a
                   color: Colors.grey,
                   fontSize: 14,
                   fontWeight: FontWeight.w500,
