@@ -159,7 +159,7 @@ class _LoginViewState extends State<LoginView> {
     return;
   }
 
-  // Print login info (remove this in production)
+  
   print("Login with: ${txtEmail.text} and ${txtPassword.text}");
 
   // Navigate to Home Screen

@@ -164,7 +164,6 @@ class _SignUpViewState extends State<SignUpView> {
       return;
     }
 
-    // Print sign up info (remove this in production)
     print("Sign Up with: ${txtName.text}, ${txtEmail.text}, ${txtMobile.text}, ${txtAddress.text}");
 
     // Navigate to Home Screen

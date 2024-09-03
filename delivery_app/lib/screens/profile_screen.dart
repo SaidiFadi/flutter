@@ -28,7 +28,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   }
 
   Future<void> _loadProfileData() async {
-    // In a real app, you'd fetch this data from an API or local database
+    // In a real app, you fetch this data from an API or  database
     setState(() {
       _name = 'fadi saidi';
       _email = 'fadi@gmail.com';

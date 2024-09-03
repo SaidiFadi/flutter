@@ -58,17 +58,17 @@ class _HomeScreenState extends State<HomeScreen> {
             DeliveryHistory(
               orderId: updatedOrder.id,
               customerName: updatedOrder.customerName,
-              fromAddress: 'Pickup Address', // You may need to add this to your Order class
+              fromAddress: 'Pickup Address', 
               toAddress: updatedOrder.address,
               distance: updatedOrder.distance,
               deliveryTime: DateTime.now().difference(updatedOrder.placedTime),
-              cost: 0.0, // You may need to add this to your Order class
-              rating: 0.0, // You may need to add this later
-              photos: [], // You may need to add this later
+              cost: 0.0, 
+              rating: 0.0, 
+              photos: [], 
               dateTime: DateTime.now(),
-              items: ['Item'], // You may need to add this to your Order class
-              notes: 'No notes', // You may need to add this to your Order class
-              deliveryPersonNotes: 'No notes', // You may need to add this later
+              items: ['Item'], 
+              notes: 'No notes', 
+              deliveryPersonNotes: 'No notes', 
             ),
           );
         }
@@ -86,7 +86,7 @@ class _HomeScreenState extends State<HomeScreen> {
           IconButton(
             icon: Icon(Icons.search),
             onPressed: () {
-              // TODO: Implement search functionality
+             
             },
           ),
         ],

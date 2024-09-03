@@ -20,7 +20,7 @@ class DeliveryApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LoginView(),  // Updated this line
+      home: LoginView(),  
     );
   }
 }

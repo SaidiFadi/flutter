@@ -20,7 +20,7 @@ class HistoryScreen extends StatelessWidget {
       notes: 'Leave at the door',
       deliveryPersonNotes: 'Customer was very friendly',
     ),
-    // Add more delivery history items...
+    
   ];
 
    @override

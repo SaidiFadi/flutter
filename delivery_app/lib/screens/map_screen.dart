@@ -56,7 +56,7 @@ void initState() {
       return;
     }
 
-    final apiKey = '5b3ce3597851110001cf62487fe955d6b4ce4e72b9a6a14267cd1d9d'; // Replace with your API key
+    final apiKey = '5b3ce3597851110001cf62487fe955d6b4ce4e72b9a6a14267cd1d9d'; 
     final apiUrl = 'https://api.openrouteservice.org/v2/directions/driving-car';
 
     try {
@@ -174,7 +174,7 @@ void initState() {
 
   String _estimateTime() {
     double distance = _calculateDistance();
-    double averageSpeed = 30; // km/h, adjust as needed
+    double averageSpeed = 30; 
     int minutes = (distance / averageSpeed * 60).round();
     return minutes.toString();
   }
